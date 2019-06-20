@@ -239,6 +239,14 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
+
+  .portpics2 {
+    float: right;
+  }
+
+  .portpics {
+    float: left;
+  }
   
 } 
 @media screen and (max-width: 768px) {
@@ -257,6 +265,14 @@ input[type=submit] {
     justify-content: center;
     width: 100%;
   }
+
+  .portpics2{
+    float: right;
+  }
+  
+  .portpics {
+    float: left;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -274,8 +290,19 @@ input[type=submit] {
   #main-container {
     width: 100%;
     position: static;
+    vertical-align: middle;
   }
 
-}
+  .auth-image {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+  }
+
+  .portpics, .portpics2 {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+  }
 
 }
